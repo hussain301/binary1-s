@@ -1,0 +1,58 @@
+body{
+   position: relative;
+   height: 100vh;
+   display: flex;
+   background-image: linear-gradient(to top right , lightgreen , dodgerblue ) ;
+
+}
+
+.container{
+    border: none;
+    padding: auto;
+    padding: 4rem 3rem;
+    border-radius: 1.4rem;
+    /* width: rem; */
+    height: 1rem;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: yellow;
+   
+    
+}
+.result{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    opacity: 0;
+    color: red;
+
+    
+  
+     line-height: 0;
+}
+.input{
+    margin-left: 0 ;
+    padding: .50rem;
+    width: 5rem;
+    position: relative;
+    bottom:1rem ;
+}
+ .btn{
+     width: 3.5rem;
+     border: 1px solid white;
+     margin-left: 20px;
+     padding: 5px;
+     border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom:1rem ;
+    }
+.btn:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: greenyellow;
+    width: 3.6rem; 
+    
+    transition: 0.5s;
+}
